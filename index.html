@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>var $j = jQuery.noConflict();</script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+        <h1>Soccarta</h1>
+
+        <!--<a href="javascript:void(0)" class="btn" onclick="shuffle()">Shuffle</a>-->
+        <div id="area">
+                <div id="deck">
+			<h2>Player 1 cards</h2>
+			<div id="deck0_cards"></div>
+			<a href="javascript:void(0)" class="btn" onclick="add_card(0)">+</a>
+		</div>
+                <div id="played0">
+                        <h2>Last card played</h2>
+                        <div id="playedcard0"></div>
+                </div>
+        </div>
+        <div id="area">
+                <div id="deck">
+			<h2>Player 2 cards</h2>
+			<div id="deck1_cards"></div>
+			<a href="javascript:void(0)" class="btn" onclick="add_card(1)">+</a>
+		</div>
+                <div id="played1">
+                        <h2>Last card played</h2>
+                        <div id="playedcard1"></div>
+                </div>
+        </div>
+</body>
+</html>
